@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN - Инструкция по подключению</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Подключение VPN</h1>
+            <p class="subtitle">Простые видео-инструкции для любого устройства</p>
+
+            <div class="download-block">
+                <a href="https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?utm_source=ext_app_menu" target="_blank" rel="noopener" class="download-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Скачать расширение Proxy SwitchyOmega
+                </a>
+            </div>
+
+            <div class="credentials">
+                <h2 class="credentials-title">Данные для подключения</h2>
+                <div class="credentials-grid">
+                    <div class="credential-item">
+                        <span class="credential-label">Сервер</span>
+                        <div class="credential-value">
+                            <span>196.17.64.29</span>
+                            <button class="copy-btn" onclick="copyText('196.17.64.29', this)">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <span class="credential-label">Порт</span>
+                        <div class="credential-value">
+                            <span>8000</span>
+                            <button class="copy-btn" onclick="copyText('8000', this)">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <span class="credential-label">Логин</span>
+                        <div class="credential-value">
+                            <span>u6BLf8</span>
+                            <button class="copy-btn" onclick="copyText('u6BLf8', this)">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <span class="credential-label">Пароль</span>
+                        <div class="credential-value">
+                            <span>34Xxet</span>
+                            <button class="copy-btn" onclick="copyText('34Xxet', this)">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="device-nav">
+                <a href="#pc" class="nav-card">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="3" width="20" height="14" rx="2"/>
+                        <path d="M8 21h8M12 17v4"/>
+                    </svg>
+                    <span>Компьютер</span>
+                </a>
+                <a href="#android" class="nav-card">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="5" y="1" width="14" height="22" rx="3"/>
+                        <path d="M12 18h.01"/>
+                    </svg>
+                    <span>Android</span>
+                </a>
+                <a href="#iphone" class="nav-card">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="6" y="1" width="12" height="22" rx="3"/>
+                        <path d="M12 18h.01"/>
+                        <path d="M9 1v1M15 1v1"/>
+                    </svg>
+                    <span>iPhone</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- PC -->
+        <section id="pc" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="step-number">01</span>
+                    <h2>Подключение на компьютере</h2>
+                    <p>Windows / macOS</p>
+                </div>
+                <div class="video-wrapper">
+                    <div class="video-placeholder" data-device="pc">
+                        <video controls>
+                            <source src="videos/VPN - Инструкция по подключению - на компьютере.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Android -->
+        <section id="android" class="section section--alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="step-number">02</span>
+                    <h2>Подключение на Android</h2>
+                    <p>Смартфоны и планшеты</p>
+                </div>
+                <div class="video-wrapper">
+                    <div class="video-placeholder" data-device="android">
+                        <!-- Замените src на ссылку вашего видео -->
+                        <video controls poster="">
+                            <source src="videos/android.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- iPhone -->
+        <section id="iphone" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="step-number">03</span>
+                    <h2>Подключение на iPhone</h2>
+                    <p>iPhone и iPad</p>
+                </div>
+                <div class="video-wrapper">
+                    <div class="video-placeholder" data-device="iphone">
+                        <!-- Замените src на ссылку вашего видео -->
+                        <video controls poster="">
+                            <source src="videos/iphone.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Если возникли вопросы — напишите в поддержку</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
